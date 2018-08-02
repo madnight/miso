@@ -284,7 +284,7 @@ Add the source from [Sample Application](#sample-application) to `app/Main.hs`
 
 Build the project
 ```
-nix-build
+nix-build -j 8
 ```
 
 Open the result
